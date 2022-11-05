@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    background: #fff;
+    cursor: pointer;
+}
+
+.btn:active {
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.5) inset;
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.5) inset;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.5) inset;
+}
+
+.btn-toggle {
+    width: 200px;
+    height: 200px;
+}
+
+.btn-screen {
+    margin-top: 20px;
+    width: 200px;
+    height: 100px;
+}
+
+.icon-circle,
+.icon-circle-fill {
+    width: 100%;
+    height: 100%;
+}
+
+.none {
+    display: none;
+}
+
+.icon {
+    width: 100%;
+    height: 100%;
+}
+
+/* chat */
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 10px 10px 9px 10px rgba(0, 0, 0, 0.31);
+    -moz-box-shadow: 10px 10px 9px 10px rgba(0, 0, 0, 0.31);
+    box-shadow: 10px 10px 9px 10px rgba(0, 0, 0, 0.31);
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.chat__send {
+    display: flex;
+    justify-content: space-between;
+    width: 480px;
+}
+
+.chat__input {
+    width: 250px;
+    height: 25px;
+    border: 4px solid #348fb9;
+}
+
+.chat__btn {
+    border: none;
+    background: #348fb9;
+    width: 100px;
+}
+
+.chat__dialogs {
+    border: 4px solid #348fb9;
+    margin-top: 10px;
+    min-height: 250px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat__message {
+    border: 4px solid #348fb9;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.client {
+    align-self: flex-end;
+}
+
+.server {
+    align-self: flex-start;
+}
